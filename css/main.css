@@ -6,9 +6,28 @@
   height: 100vh;
 }
 
-@media screen and (max-width: 1200px) {
+
+
+@media screen and (min-width: 412px) {
     .imagecon {
+    background-image: url('../images/littleman.jpg');
     background-size: contain;
+    height: 675px;
 }
 }
 
+
+@media screen and (min-width: 768px) {
+    .imagecon {
+    background-image: url('../images/cosplaymedium.jpg');
+    background-size: contain;
+    height: 675px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .imagecon {
+    background-image: url('../images/cosplay.jpg');
+    background-size: contain;
+}
+}
