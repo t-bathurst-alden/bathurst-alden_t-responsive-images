@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Responsive Images</title>
+</head>
+    <body>
+        <section class="grid-con center-grid-con">
+            <h2 class="visually-hidden">Tilly angry at me for disturbing her nap</h2>
+            <picture class="col-start-2 col-end-4 m-col-span-full">
+                <source srcset="images/largetilly.jpg" media="(min-width: 768px)">
+                <img src="images/smalltilly.jpg" alt="Tilly!">
+            </picture>
+        </section>
+        <section class="grid-con center-grid-con">
+            <h2 class="visually-hidden">Tilly wearing a bandana</h2>
+            <div class="col-span-full">
+                    <img
+                    sizes="
+                        (min-width: 1200px) 900px,
+                        (min-width: 768px) 600px,
+                        100vw"
+                    srcset="
+                        images/bandanatilly_4.02.28_PM_mzmjgj_c_scale,w_412.jpg 412w,
+                        images/bandanatilly_4.02.28_PM_mzmjgj_c_scale,w_728.jpg 728w,
+                        images/bandanatilly_4.02.28_PM_mzmjgj_c_scale,w_906.jpg 906w,
+                        images/bandanatilly_4.02.28_PM_mzmjgj_c_scale,w_1155.jpg 1155w,
+                        images/bandanatilly_4.02.28_PM_mzmjgj_c_scale,w_1200.jpg 1200w"
+                        src="bandanatilly_4.02.28_PM_mzmjgj_c_scale,w_1200.jpg"
+                    alt="Tilly again">
+            </div>
+        </section>
+        <section class="grid-con center-grid-con">
+            <div class="col-span-full" id="imagecon">
+            </div>
+        </section>
+        <script src="js/main.js"></script>   
+    </body>
+</html>
