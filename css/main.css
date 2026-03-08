@@ -1,28 +1,14 @@
-#imagecon {
+.imagecon {
   background-image: url('../images/cosplay.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 675px;
-  width: 1200px;
+  height: 100vh;
 }
 
-@media screen and (max-width: 768px) {
-    #imagecon {
-    background-image: url('../images/cosplaymedium.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 675px;
-    width: 768px;
+@media screen and (max-width: 1200px) {
+    .imagecon {
+    background-size: contain;
 }
 }
 
-@media screen and (max-width: 412px) {
-    #imagecon {
-    background-image: url('../images/littleman.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 361px;
-    width: 412px;
-}
-}
