@@ -12,6 +12,8 @@ Open index.html in any browser you wish.
 5. Submit a pull request.
 ## History
 First Commit: Folder structure, adding images and moving my work cause I didn't know we had to use GitHub.
+Second Commit: Messing around in CSS
+Third Commit: Final touches, and CSS functions!
 ## Credits
 Tegan Bathurst-Alden
 ## License
